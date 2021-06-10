@@ -22,5 +22,11 @@
     "declarationMap": true,
     "sourceMap": true,
     "noFallthroughCasesInSwitch": true,
+  },
+  "watchOptions": {
+    "excludeDirectories": [
+      "**/node_modules",
+      "**/dist"
+    ]
   }
 }
