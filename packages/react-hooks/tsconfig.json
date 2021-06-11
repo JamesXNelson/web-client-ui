@@ -1,6 +1,7 @@
 {
   "extends": "@deephaven/tsconfig",
   "compilerOptions": {
+    "target": "es2017",
     "declarationDir": "dist/",
     "outDir": "dist/",
   },
@@ -15,5 +16,11 @@
     "src/**/*.test.*",
     "src/**/*.stories.*",
     "src/__mocks__/*"
-  ]
+  ],
+  "watchOptions": {
+    "excludeDirectories": [
+      "**/node_modules",
+      "**/dist"
+    ]
+  }
 }

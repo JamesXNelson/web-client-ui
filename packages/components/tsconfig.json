@@ -15,5 +15,11 @@
     "src/**/*.test.*",
     "src/**/*.stories.*",
     "src/__mocks__/*"
-  ]
+  ],
+  "watchOptions": {
+    "excludeDirectories": [
+      "**/node_modules",
+      "**/dist"
+    ]
+  }
 }
